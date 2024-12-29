@@ -5,7 +5,7 @@
 //  Created by 김경훈 on 12/15/24.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for KHBannerView.
 FOUNDATION_EXPORT double KHBannerViewVersionNumber;
