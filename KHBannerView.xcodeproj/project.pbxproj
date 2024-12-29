@@ -9,23 +9,19 @@
 /* Begin PBXBuildFile section */
 		6C32C84D2D131598009752ED /* KHBannerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C8452D131598009752ED /* KHBannerItem.swift */; };
 		6C32C84E2D131598009752ED /* KHBannerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C8462D131598009752ED /* KHBannerCollectionView.swift */; };
-		6C32C84F2D131598009752ED /* KHBannerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C8472D131598009752ED /* KHBannerViewDataSource.swift */; };
 		6C32C8502D131598009752ED /* KHBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C8492D131598009752ED /* KHBannerView.swift */; };
 		6C32C8512D131598009752ED /* KHBannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C84A2D131598009752ED /* KHBannerViewCell.swift */; };
 		6C32C8522D131598009752ED /* KHBannerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32C84B2D131598009752ED /* KHBannerViewDelegate.swift */; };
 		6C32C8532D131598009752ED /* KHBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C32C8482D131598009752ED /* KHBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C7D0E612D166AA8007DDEBA /* KHBannerPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D0E602D166AA8007DDEBA /* KHBannerPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C32C8452D131598009752ED /* KHBannerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerItem.swift; sourceTree = "<group>"; };
 		6C32C8462D131598009752ED /* KHBannerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerCollectionView.swift; sourceTree = "<group>"; };
-		6C32C8472D131598009752ED /* KHBannerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerViewDataSource.swift; sourceTree = "<group>"; };
 		6C32C8482D131598009752ED /* KHBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHBannerView.h; sourceTree = "<group>"; };
 		6C32C8492D131598009752ED /* KHBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerView.swift; sourceTree = "<group>"; };
 		6C32C84A2D131598009752ED /* KHBannerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerViewCell.swift; sourceTree = "<group>"; };
 		6C32C84B2D131598009752ED /* KHBannerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerViewDelegate.swift; sourceTree = "<group>"; };
-		6C7D0E602D166AA8007DDEBA /* KHBannerPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHBannerPageControl.swift; sourceTree = "<group>"; };
 		6C9525202D0F11BE00FAC8BF /* KHBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KHBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,11 +42,9 @@
 				6C32C8482D131598009752ED /* KHBannerView.h */,
 				6C32C8452D131598009752ED /* KHBannerItem.swift */,
 				6C32C8492D131598009752ED /* KHBannerView.swift */,
-				6C32C84B2D131598009752ED /* KHBannerViewDelegate.swift */,
-				6C32C8472D131598009752ED /* KHBannerViewDataSource.swift */,
 				6C32C8462D131598009752ED /* KHBannerCollectionView.swift */,
+				6C32C84B2D131598009752ED /* KHBannerViewDelegate.swift */,
 				6C32C84A2D131598009752ED /* KHBannerViewCell.swift */,
-				6C7D0E602D166AA8007DDEBA /* KHBannerPageControl.swift */,
 			);
 			path = KHBannerView;
 			sourceTree = "<group>";
@@ -156,9 +150,7 @@
 			files = (
 				6C32C84D2D131598009752ED /* KHBannerItem.swift in Sources */,
 				6C32C84E2D131598009752ED /* KHBannerCollectionView.swift in Sources */,
-				6C32C84F2D131598009752ED /* KHBannerViewDataSource.swift in Sources */,
 				6C32C8502D131598009752ED /* KHBannerView.swift in Sources */,
-				6C7D0E612D166AA8007DDEBA /* KHBannerPageControl.swift in Sources */,
 				6C32C8512D131598009752ED /* KHBannerViewCell.swift in Sources */,
 				6C32C8522D131598009752ED /* KHBannerViewDelegate.swift in Sources */,
 			);

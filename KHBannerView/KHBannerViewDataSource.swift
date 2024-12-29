@@ -60,11 +60,8 @@ class KHBannerViewDataSource: NSObject{
         self.delegate = delegate
         self.currentPage = 0
         self.selectHandler = selectHandler
+        
         bannerView.delegate = self.delegate
-        
-
-        
-        collectionView.translatesAutoresizingMaskIntoConstraints = false
         bannerView.addSubview(collectionView)
         
         addContsraintsToPageControl()
@@ -147,7 +144,7 @@ extension KHBannerViewDataSource: UICollectionViewDataSource, UICollectionViewDe
         return 0
     }
     //MARK: UICollectionViewDataSource, UICollectionViewDelegate
-    /// Index of items currentl visubale in KHBannerView
+    /// Index of items currently visubale in KHBannerView
     private func visibleItemCellIndex() -> Int{
         return collectionView.indexPathsForVisibleItems[0].item
     }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class KHBannerViewCell: UICollectionViewCell {
+class KHBannerViewCell: UICollectionViewCell {
     
     static let identifier: String = "KHBannerViewCell"
     
@@ -18,25 +18,21 @@ public class KHBannerViewCell: UICollectionViewCell {
         return imageView
     }()
     
-    // MARK: - Initializer
+    // MARK: - Initialize
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        setupSubviews()
-        setupConstraints()
+        setupViews()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        setupSubviews()
-        setupConstraints()
+        setupViews()
     }
     
-    // MARK: - Setup Methods
-    private func setupSubviews() {
+    // MARK: - Set up View
+    private func setupViews() {
         contentView.addSubview(bannerImageView)
-    }
-    
-    private func setupConstraints() {
+        
         NSLayoutConstraint.activate([
             bannerImageView.topAnchor.constraint(equalTo: contentView.topAnchor),
             bannerImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
@@ -44,9 +40,8 @@ public class KHBannerViewCell: UICollectionViewCell {
             bannerImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor)
         ])
     }
-    
     // MARK: - Configuration
-    func configure(_ banner: KHBannerItem) {
+    func configure(_ banner: KHBannerItem, mode: UIView.ContentMode? = nil) {
         bannerImageView.image = banner.image
     }
 }

@@ -17,7 +17,4 @@ import UIKit
     @objc optional func banner(bannerView: KHBannerView,
                                didSelect: KHBannerItem,
                                with index: Int)
-    /// Asks your data source object for the cell that corresponds to the specified item in the KHBanner's collection view.
-    @objc optional func banner(collectionView: UICollectionView,
-                               cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
 }
