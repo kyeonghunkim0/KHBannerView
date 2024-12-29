@@ -19,12 +19,15 @@ let bannerItem: [KHBannerItem] = [
             KHBannerItem(image: UIImage(named: "B")),
             KHBannerItem(image: UIImage(named: "C"))
 ]
+
 // configure KHBannerView
 bannerView.configure(banners: bannerItem)
-// Delegate KHBannerView
-bannerView.delegate = self
+
 // Set KHBanner Timer's timeinterval      
 bannerView.timeInterval = 4.0
+
+// Delegate KHBannerView
+bannerView.delegate = self
 
 // KHBannerViewDelegate
 func banner(bannerView: KHBannerView, didSelect: KHBannerItem, with index: Int) {
