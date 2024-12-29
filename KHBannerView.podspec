@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KHBannerView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "Simple"
 
   # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -81,9 +81,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
+  spec.source_files  = '**/*.swift', '*.swift'
+  spec.swift_versions = '5.0'
   # spec.public_header_files = "Classes/**/*.h"
 
 
